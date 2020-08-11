@@ -1,0 +1,8 @@
+# docker-compose up
+version: "3.3"
+services:
+  web:
+    image: ssrspeed
+    container_name: ssrspeed
+    ports:
+       - "10870:10870" 
