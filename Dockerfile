@@ -24,4 +24,5 @@ RUN pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 
 EXPOSE 10870
 
-CMD ["python3","web.py"]
+CMD ["ps"]
+# CMD ["python3","./web.py"]
