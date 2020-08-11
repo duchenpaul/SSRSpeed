@@ -10,7 +10,7 @@ RUN sed -i 's/security.ubuntu.com/mirrors.163.com/g' /etc/apt/sources.list
 RUN sed -i 's/archive.ubuntu.com/mirrors.163.com/g' /etc/apt/sources.list
 RUN apt-get update 
 RUN apt-get -y install tzdata wget git vim python3 python3-pip 
-RUN apt-get -y install libsodium-dev
+RUN apt-get -y install libsodium-dev shadowsocks-libev simple-obfs
 RUN apt-get -y autoremove --purge
 RUN apt-get clean
 RUN mkdir /app
