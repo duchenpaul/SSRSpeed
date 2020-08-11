@@ -3,7 +3,8 @@ version: "3.3"
 services:
   web:
     build:
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: Dockerfile-alternate
     image: ssrspeed
     container_name: ssrspeed
     ports:
