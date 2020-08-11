@@ -4,7 +4,7 @@ services:
   web:
     build:
       context: .
-      dockerfile: Dockerfile-alternate
+      dockerfile: Dockerfile
     image: ssrspeed
     container_name: ssrspeed
     ports:
